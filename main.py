@@ -7,4 +7,6 @@ from Experiments import *
 
 
 if __name__ == "__main__":
-    test_robot(BreadthFirstSearchRobot, [0, 1, 2, 3, 4, 5])
+    test_robot(UniformCostSearchRobot, [0, 1, 2, 3, 4, 5])
+    # solve_and_display(BreadthFirstSearchRobot, 5)
+    # test_robot(BreadthFirstSearchRobot, [0, 1, 2, 3, 4, 5])
