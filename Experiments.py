@@ -12,8 +12,10 @@ def w_experiment(maze_index):
     for w in w_values:
         ################################################################################################################
         # TODO (EX. 10.1): complete code here, delete exception
-        raise NotImplemented
-
+        robot = WAStartRobot(heuristic=center_manhattan_heuristic, w=w)
+        solution = robot.solve(problem)
+        solve_times.append(solution.solve_time)
+        solution_costs.append(solution.cost)
         ################################################################################################################
 
     plt.plot(w_values, solve_times)
