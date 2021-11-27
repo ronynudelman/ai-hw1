@@ -53,11 +53,10 @@ class BreadthFirstSearchRobot(Robot):
                     g_value = next_state_child_cost + next_node.g_value
                     next_node_child = Node(state=next_state_child, parent=next_node, g_value=g_value)
                     if maze.is_goal(next_state_child):
-                        return GraphSearchSolution(final_node=next_node_child,solve_time=curr_time() - start_time,
-                                                    n_node_expanded=n_node_expanded)
+                        return GraphSearchSolution(final_node=next_node_child,
+                                                   solve_time=curr_time() - start_time,
+                                                   n_node_expanded=n_node_expanded)
                     self.queue.add(next_node_child)
-
-
             ############################################################################################################
         # If we are here, then we didn't find a solution during the search
         assert no_solution_found
@@ -132,7 +131,6 @@ class BestFirstSearchRobot(Robot):
                         self.close.remove_node(next_node_child_in_close)
                         next_node_child_in_close.g_value = g_value
                         self.open.add(next_node_child_in_close, self._calc_node_priority(next_node_child_in_close))
-
             ############################################################################################################
 
         if compute_all_dists:
