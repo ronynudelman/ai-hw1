@@ -25,7 +25,7 @@ class ShorterRobotHeuristic:
         ################################################################################################################
         # TODO (EX. 13.2): replace all three dots, delete exception
         shorter_robot_head_goal, shorter_robot_tail_goal = self._compute_shorter_head_and_tails(maze_problem.head_goal,
-                                                                                           maze_problem.tail_goal)
+                                                                                                maze_problem.tail_goal)
         self.new_maze_problem = MazeProblem(maze_map=maze_problem.maze_map,
                                             initial_head=shorter_robot_tail_goal,
                                             initial_tail=shorter_robot_head_goal,
