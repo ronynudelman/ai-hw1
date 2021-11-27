@@ -1,0 +1,17 @@
+Task 1          V
+Task 2          V
+Task 3          V
+Task 4          V
+Task 5          V
+Task 6          V
+Task 7          V
+Task 8          Part 2: We got a file but still don't know what is the trick.
+Task 9          Part 1: Can we assume the cost of forward and rotate is at least 1?
+Task 10         Part 2: Need to complete. The graphs already exist.
+Task 11         V
+Task 12         X
+Task 13         Part 3: What should we return if the state doesn't exist in close?
+                        We are not sure our current solution is good.
+Task 15         X
+Task 16         X
+Task 17         X
