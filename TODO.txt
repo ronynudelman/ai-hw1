@@ -5,13 +5,13 @@ Task 4          V
 Task 5          V
 Task 6          V
 Task 7          V
+Task 8          Part 1: We should check how tail manhattan calculated
 Task 8          Part 2: We got a file but still don't know what is the trick.
 Task 9          Part 1: Can we assume the cost of forward and rotate is at least 1?
-Task 10         Part 2: Need to complete. The graphs already exist.
+Task 10         Part 2: Need to compare with others.
 Task 11         V
 Task 12         X
-Task 13         Part 3: What should we return if the state doesn't exist in close?
-                        We are not sure our current solution is good.
-Task 15         X
-Task 16         X
-Task 17         X
+Task 13         Part 3: Is infinity legal solution?
+Task 15         Part 5: We didn't answer it yet. (binus)
+Task 16         V
+Task 17         Part 1: We are not sure that we understand the question

@@ -39,22 +39,22 @@ class ShorterRobotHeuristic:
     def _compute_shorter_head_and_tails(self, head, tail):
         # TODO (EX. 13.1): complete code here, delete exception
         robot_direction = compute_robot_direction(head, tail)
-        shorter_head = head - (self.k / 2) * robot_direction
-        shorter_tail = tail + (self.k / 2) * robot_direction
+        shorter_head = head - (self.k // 2) * robot_direction
+        shorter_tail = tail + (self.k // 2) * robot_direction
         return shorter_head, shorter_tail
 
     def __call__(self, state: MazeState):
         # TODO (EX. 13.3): replace each three dots, delete exception
-        shorter_head_location, shorter_tail_location = _compute_shorter_head_and_tails(state.head,
-                                                                                       state.tail)
+        shorter_head_location, shorter_tail_location = self._compute_shorter_head_and_tails(state.head,
+                                                                                            state.tail)
         new_state = MazeState(self.new_maze_problem,
-                              head=shorter_head_location,
-                              tail=shorter_tail_location)
+                              head=shorter_tail_location,
+                              tail=shorter_head_location)
         if new_state in self.node_dists:
             node = self.node_dists.get_node(new_state)
             return node.g_value
         else:
-            return center_manhattan_heuristic(state)  # what should we return in this case,
+            return float("inf")                       # what should we return in this case,
                                                       # so that the heuristic would be as
                                                       # informative as possible
                                                       # but still admissible
