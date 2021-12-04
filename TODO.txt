@@ -5,13 +5,14 @@ Task 4          V
 Task 5          V
 Task 6          V
 Task 7          V
-Task 8          Part 1: We should check how tail manhattan calculated
 Task 8          Part 2: We got a file but still don't know what is the trick.
-Task 9          Part 1: Can we assume the cost of forward and rotate is at least 1?
-Task 10         Part 2: Need to compare with others.
+Task 9          Part 2: Fix the code. Need to multiply the result by forward cost.
+Task 10         V
 Task 11         V
-Task 12         X
-Task 13         Part 3: Is infinity legal solution?
-Task 15         Part 5: We didn't answer it yet. (binus)
+Task 12         Part 1, 2: We haven't answer it yet.
+Task 13         V
+Task 15         Part 5 (Bonus): We haven't answer it yet.
 Task 16         V
-Task 17         Part 1: We are not sure that we understand the question
+Task 17         Part 1: We are not sure that we understand the question.
+
+*Revert the names of the graph files.
