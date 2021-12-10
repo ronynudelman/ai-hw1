@@ -13,5 +13,4 @@ Task 12         Part 1, 2: We haven't answered it yet.
 Task 13         V
 Task 15         Part 5 (Bonus): We haven't answered it yet.
 Task 16         V
-Task 17         Part 1: Will be completed soon.
-Task 17         Part 2: Will be completed soon.
+Task 17         V
