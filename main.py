@@ -7,5 +7,5 @@ from Experiments import *
 
 
 if __name__ == "__main__":
-    for map_index in [2, 3, 4, 5]:
-        shorter_robot_heuristic_experiment(map_index)
+    test_robot(WAStartRobot, [99], heuristic=tail_manhattan_heuristic)
+    test_robot(WAStartRobot, [99], heuristic=center_manhattan_heuristic)

@@ -5,7 +5,7 @@ Task 4          V
 Task 5          V
 Task 6          V
 Task 7          V
-Task 8          Part 2: We got a file but still don't know what is the trick.
+Task 8          V
 Task 9          V
 Task 10         V
 Task 11         V
