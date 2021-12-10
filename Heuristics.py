@@ -14,7 +14,8 @@ def center_manhattan_heuristic(state: MazeState):
     # TODO (EX 9.2), implement heuristic, delete exception
     current_robot_center = (state.head + state.tail) / 2
     goal_center = (state.maze_problem.head_goal + state.maze_problem.tail_goal) / 2
-    return np.sum(np.abs(current_robot_center - goal_center))
+    centers_manhattan_dist = np.sum(np.abs(current_robot_center - goal_center))
+    return state.maze_problem.forward_cost * centers_manhattan_dist
 
 class ShorterRobotHeuristic:
     def __init__(self, maze_problem: MazeProblem, k):
