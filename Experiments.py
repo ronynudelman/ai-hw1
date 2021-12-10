@@ -22,14 +22,14 @@ def w_experiment(maze_index):
     plt.xlabel("w")
     plt.ylabel("time")
     plt.title(f"wA* with center_manhattan_heuristic solving time on maze_{maze_index}")
-    plt.savefig(f"plots/wA_star_with_center_manhattan_heuristic_solving_time_on_maze_{maze_index}.png")
+    plt.savefig(f"plots/wA with center_manhattan_heuristic solving time on maze_{maze_index}.png")
     plt.clf()
 
     plt.plot(w_values, solution_costs)
     plt.xlabel("w")
     plt.ylabel("cost")
     plt.title(f"wA* with center_manhattan_heuristic solution cost on maze_{maze_index}")
-    plt.savefig(f"plots/wA_star_with_center_manhattan_heuristic_solution_cost_on_maze_{maze_index}.png")
+    plt.savefig(f"plots/wA with center_manhattan_heuristic solution cost on maze_{maze_index}.png")
     plt.clf()
 
 def shorter_robot_heuristic_experiment(maze_index):
@@ -54,5 +54,5 @@ def shorter_robot_heuristic_experiment(maze_index):
     plt.xlabel("k")
     plt.ylabel("time")
     plt.title(f"shorter robot heuristic experiment on maze_{maze_index}.")
-    plt.savefig(f"plots/shorter_robot_heuristic_experiment_on_maze_{maze_index}.png")
+    plt.savefig(f"plots/shorter robot heuristic experiment on maze_{maze_index}.png")
     plt.clf()

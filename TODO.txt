@@ -6,13 +6,12 @@ Task 5          V
 Task 6          V
 Task 7          V
 Task 8          Part 2: We got a file but still don't know what is the trick.
-Task 9          Part 2: Fix the code. Need to multiply the result by forward cost.
+Task 9          V
 Task 10         V
 Task 11         V
-Task 12         Part 1, 2: We haven't answer it yet.
+Task 12         Part 1, 2: We haven't answered it yet.
 Task 13         V
-Task 15         Part 5 (Bonus): We haven't answer it yet.
+Task 15         Part 5 (Bonus): We haven't answered it yet.
 Task 16         V
-Task 17         Part 1: We are not sure that we understand the question.
-
-*Revert the names of the graph files.
+Task 17         Part 1: Will be completed soon.
+Task 17         Part 2: Will be completed soon.
